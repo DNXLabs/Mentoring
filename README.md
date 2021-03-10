@@ -17,12 +17,13 @@ SAAS
 
 <details>
 
-<summary> Cloud Computing Deployments:
+<summary> Cloud Computing Deployments:</summary> <br><b>
+
 
   * Public
   * Hybrid
-  * Private</summary><br><b>
-</b></details>
+  * Private
+  </b></details>
 
 #### AWS Global Infrastructure
 
