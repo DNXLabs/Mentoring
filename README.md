@@ -451,12 +451,9 @@ Read more on it [here](https://aws.amazon.com/lambda)
 <details>
 <summary>Which of the following set of languages Lambda supports?
 
-  * R, Swift, Rust, Kotlin
-  * Python, Ruby, Go 
-  * Python, Ruby, PHP</summary><br><b>
-
-  * Python, Ruby, Go 
-</b></details>
+ - R, Swift, Rust, Kotlin, Python, Ruby, Go PHP
+</b>
+</details>
 
 
 #### AWS Automation
@@ -473,3 +470,16 @@ Amazon definition: "AWS CodeDeploy is a fully managed deployment service that au
 Learn more [here](https://aws.amazon.com/codedeploy)
 </b></details>
 
+#### AWS API Gateway 
+
+<details>
+<summary> What is API Gateway</summary><br><b>
+</b></details>
+
+<details>
+<summary>What is AWS Cognito?</summary><br><b>
+</b></details>
+
+<details>
+<summary>Building a REST API with AWS Lambda and API Gateway</summary><br><b
+</b></details>
