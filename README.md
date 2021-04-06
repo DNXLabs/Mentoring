@@ -151,11 +151,7 @@ An S3 bucket is a resource which is similar to folders in a file system and allo
 </b></details>
 
 <details>
-<summary>Explain the following:
-
-  * Object Lifecycles
-  * Object Sharing
-  * Object Versioning</summary><br><b>
+Explain the following:
 
   * Object Lifecycles - Transfer objects between storage classes based on defined rules of time periods
   * Object Sharing - Share objects via a URL link
