@@ -4,6 +4,8 @@
 
 A summary of what will be given
 
+<b>(Day 1)</b>
+
 #### Cloud
 
 <details>
@@ -76,6 +78,7 @@ allow or deny traffic on the intance level
 Read more about it [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html) and [here](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html)
 </b></details>
 
+<b>(Day 2)</b>
 
 #### AWS Compute
 
@@ -132,6 +135,31 @@ Amazon definition: "AWS Fargate is a serverless compute engine for containers th
 
 Learn more [here](https://aws.amazon.com/fargate)
 </b></details>
+
+#### AWS IAM
+
+<details>
+<summary>What is IAM? What are some of its features?</summary><br><b>
+
+Full explanation is [here](https://aws.amazon.com/iam)
+In short: it's used for managing users, groups, access policies & roles
+IAM configuration is defined globally and not per region
+</b></details>
+
+<details>
+<summary>What are Roles?</summary><br><b>
+
+A way for allowing a service of AWS to use another service of AWS. You assign roles to AWS resources.
+For example, you can make use of a role which allows EC2 service to acesses s3 buckets (read and write).
+</b></details>
+
+<details>
+<summary>What are Policies?</summary><br><b>
+
+Policies documents used to give permissions as to what a user, group or role are able to do. Their format is JSON.
+</b></details>
+
+<b>(Day 3 and 4)</b>
 
 #### AWS Storage
  
@@ -212,32 +240,6 @@ Amazon definition: "Amazon Elastic File System (Amazon EFS) provides a simple, s
 Learn more [here](https://aws.amazon.com/efs)
 </b></details>
 
-
-#### AWS IAM
-
-<details>
-<summary>What is IAM? What are some of its features?</summary><br><b>
-
-Full explanation is [here](https://aws.amazon.com/iam)
-In short: it's used for managing users, groups, access policies & roles
-IAM configuration is defined globally and not per region
-</b></details>
-
-
-<details>
-<summary>What are Roles?</summary><br><b>
-
-A way for allowing a service of AWS to use another service of AWS. You assign roles to AWS resources.
-For example, you can make use of a role which allows EC2 service to acesses s3 buckets (read and write).
-</b></details>
-
-<details>
-<summary>What are Policies?</summary><br><b>
-
-Policies documents used to give permissions as to what a user, group or role are able to do. Their format is JSON.
-</b></details>
-
-
 ##### AWS ELB
 
 <details>
@@ -262,6 +264,38 @@ AWS definition: "AWS Auto Scaling monitors your applications and automatically a
 Read more about auto scaling [here](https://aws.amazon.com/autoscaling)
 </b></details>
 
+#### AWS Databases
+
+<details>
+<summary>What is AWS RDS?</summary><br><b>
+</b></details>
+
+<details>
+<summary>What is AWS DynamoDB?</summary><br><b>
+</b></details>
+
+
+<details>
+<summary>What is AWS Redshift and how is it different than RDS?</summary><br><b>
+
+cloud data warehouse
+</b></details>
+
+
+<details>
+<summary>What is Amazon Aurora</summary><br><b>
+
+A MySQL & Postgresql based relational database. Also, the default database proposed for the user when using RDS for creating a database.
+Great for use cases like two-tier web applications that has a MySQL or Postgresql database layer and you need automated backups for your application.
+</b></details>
+
+<details>
+<summary>What is Amazon DocumentDB?</summary><br><b>
+
+Amazon definition: "Amazon DocumentDB (with MongoDB compatibility) is a fast, scalable, highly available, and fully managed document database service that supports MongoDB workloads. As a document database, Amazon DocumentDB makes it easy to store, query, and index JSON data."
+
+Learn more [here](https://aws.amazon.com/documentdb)
+</b></details>
 
 #### AWS ROUTE53
 
@@ -277,23 +311,7 @@ Some of Route 53 features:
 More on Route 53 [here](https://aws.amazon.com/route53)
 </b></details>
 
-#### AWS CloudFront
-
-<details>
-<summary>what is CloudFront?</summary><br><b>
-
-AWS definition: "Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment."
-
-More on CloudFront [here](https://aws.amazon.com/cloudfront)
-</b></details>
-
-<details>
-<summary>Explain the following
-
-  * Origin
-  * Edge location
-  * Distribution</summary><br><b>
-</b></details>
+<b>(Day 4 and 5)</b>
 
 #### AWS Monitoring & Logging
 
@@ -313,6 +331,78 @@ AWS definition: "AWS CloudTrail is a service that enables governance, compliance
 Read more on CloudTrail [here](https://aws.amazon.com/cloudtrail)
 </b></details>
 
+
+<details>
+<summary>First Challange</summary><br><b>
+
+→ Deploy Web Application in EC2.
+Requirements:      
+  - Create an Custom VPC (Network: "10.100.0.0/16")
+  - Create an EC2 Instance inside this network 
+  - Page returning describe-instances and describe-vpcs in a Table
+  - Language:  Up to you
+Ref.: https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeInstances.html
+PS: If you are not a developer, in JSON format is fine (We're going to support you if you need it)
+    If you judge it's too easy for you, Add AWS Cognito Authentication to the page
+
+* DNX Foundation
+  * https://modules.dnx.one/
+ 
+</b></details>
+
+<b>(Day 6 and 7)</b>
+
+#### AWS Serverless Compute
+
+<details>
+<summary>Explain what is AWS Lambda</summary><br><b>
+
+AWS definition: "AWS Lambda lets you run code without provisioning or managing servers. You pay only for the compute time you consume."
+
+Read more on it [here](https://aws.amazon.com/lambda)
+</b></details>
+
+<details>
+<summary>Which of the following set of languages Lambda supports?
+
+ - R, Swift, Rust, Kotlin, Python, Ruby, Go PHP
+</b>
+</details>
+
+
+#### AWS API Gateway 
+
+<details>
+<summary> What is API Gateway</summary><br><b>
+</b></details>
+
+<details>
+<summary>What is AWS Cognito?</summary><br><b>
+</b></details>
+
+<details>
+<summary>Building a REST API with AWS Lambda and API Gateway</summary><br><b
+</b></details>
+
+<b>(TO BE DONE)</b>
+
+#### AWS CloudFront
+
+<details>
+<summary>what is CloudFront?</summary><br><b>
+
+AWS definition: "Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment."
+
+More on CloudFront [here](https://aws.amazon.com/cloudfront)
+</b></details>
+
+<details>
+<summary>Explain the following
+
+  * Origin
+  * Edge location
+  * Distribution</summary><br><b>
+</b></details>
 
 #### AWS SNS
 
@@ -400,58 +490,6 @@ Amazon definition: "AWS Certificate Manager is a service that lets you easily pr
 Learn more [here](https://aws.amazon.com/certificate-manager)
 </b></details>
 
-#### AWS Databases
-
-<details>
-<summary>What is AWS RDS?</summary><br><b>
-</b></details>
-
-<details>
-<summary>What is AWS DynamoDB?</summary><br><b>
-</b></details>
-
-
-<details>
-<summary>What is AWS Redshift and how is it different than RDS?</summary><br><b>
-
-cloud data warehouse
-</b></details>
-
-
-<details>
-<summary>What is Amazon Aurora</summary><br><b>
-
-A MySQL & Postgresql based relational database. Also, the default database proposed for the user when using RDS for creating a database.
-Great for use cases like two-tier web applications that has a MySQL or Postgresql database layer and you need automated backups for your application.
-</b></details>
-
-<details>
-<summary>What is Amazon DocumentDB?</summary><br><b>
-
-Amazon definition: "Amazon DocumentDB (with MongoDB compatibility) is a fast, scalable, highly available, and fully managed document database service that supports MongoDB workloads. As a document database, Amazon DocumentDB makes it easy to store, query, and index JSON data."
-
-Learn more [here](https://aws.amazon.com/documentdb)
-</b></details>
-
-
-#### AWS Serverless Compute
-
-<details>
-<summary>Explain what is AWS Lambda</summary><br><b>
-
-AWS definition: "AWS Lambda lets you run code without provisioning or managing servers. You pay only for the compute time you consume."
-
-Read more on it [here](https://aws.amazon.com/lambda)
-</b></details>
-
-<details>
-<summary>Which of the following set of languages Lambda supports?
-
- - R, Swift, Rust, Kotlin, Python, Ruby, Go PHP
-</b>
-</details>
-
-
 #### AWS Automation
 
 <details>
@@ -466,16 +504,3 @@ Amazon definition: "AWS CodeDeploy is a fully managed deployment service that au
 Learn more [here](https://aws.amazon.com/codedeploy)
 </b></details>
 
-#### AWS API Gateway 
-
-<details>
-<summary> What is API Gateway</summary><br><b>
-</b></details>
-
-<details>
-<summary>What is AWS Cognito?</summary><br><b>
-</b></details>
-
-<details>
-<summary>Building a REST API with AWS Lambda and API Gateway</summary><br><b
-</b></details>
