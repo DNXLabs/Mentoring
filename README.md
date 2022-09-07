@@ -1,7 +1,6 @@
 # Mentoring
 
 
-
 A summary of what will be given
 
 <b>(Day 1)</b>
@@ -11,9 +10,91 @@ A summary of what will be given
 <details>
 <summary> Types of Cloud Computing services</summary><br><b>
 
-IAAS
-PAAS
-SAAS
+1 - IAAS (Infrastructure as a service)<br><br>
+  IaaS stands for Infrastructure-as-a-Service. It allows organizations to purchase resources like networking and storage on-demand instead of having to buy costly hardware. IaaS is highly scalable and offers businesses more flexibility than on-premise solutions.
+
+  IaaS can be seen as the basic layer in cloud computing. The virtualized components available through the internet are equivalent to the servers and hardware companies would traditionally store in their building.
+
+  1.1 - When to use IaaS?
+  
+  Organizations of all sizes can benefit from IaaS. Small companies who want to avoid purchasing hardware or don’t have the time, staff, or ability to host large data centers on-premise, as well as larger businesses who want to stay in control of their apps and only want to consume the resources they actually need. The scalability of IaaS is also great for companies that experience rapid growth.
+
+  1.2 - IaaS delivery
+  
+  With IaaS, enterprises get a full cloud computing infrastructure including network, servers, operating system, and data centers/storage. Full access is granted through virtualization technology via dashboard or API. This way, clients have complete control over their computing infrastructure.
+
+  The IaaS provider is responsible for managing and maintaining servers, hard drives, storage, and virtualization tools. However, applications, runtime, OS, middleware, and data still need to be managed by the client.
+
+  1.3 - IaaS benefits
+  * Flexibility: IaaS is more flexible than all the other cloud computing models.
+  * Automation: With IaaS, you can easily automate the deployment of servers, storage, and networking.
+  * Cost-reduction: IaaS lets you purchase resources on an as-needed basis, so you only pay for what you’re actually using.
+  * Control: IaaS lets you retain complete control of your infrastructure.
+  * Scalability: Since you’re only “renting” IT components, you can easily upscale or downscale your resources.
+
+  1.4 - IaaS disadvantages
+  * Legacy systems: Before migrating to the cloud, legacy apps might have to be enhanced for the new type of infrastructure.
+  * Internal training: Staff might have to undergo additional training to effectively manage and monitor IaaS.
+  * Security: While you are in control over your apps, data, middleware, and the OS platform, you are also responsible for mitigating new security threats.
+
+  
+  2 - PAAS (Platform as a Service)<br><br>
+  PaaS stands for Platform-as-a-Service. The platform that can be accessed through the internet provides developers with a framework and tools to build apps and software that are tailored to the organization’s individual needs.
+
+  PaaS can be seen as a scaled-down version of IaaS. Just like IaaS, the customers have access to servers and data centers which are maintained and managed by the third-party provider. However, they mainly use PaaS for building custom SaaS applications.
+
+  2.1 - When to use PaaS?
+  
+  There are several situations when a Platform-as-a-Service would be a good idea. For example, if you have several developers working on the same development project, PaaS is a great way to streamline workflows.
+
+  You can even include other vendors and stay flexible during the entire process. PaaS is also the way to go if your organization requires customized applications that need to be developed and deployed in a short amount of time.
+
+  2.2 - PaaS delivery
+  
+  PaaS delivery can be compared to the way SaaS is delivered. The only difference is that customers don’t access online software, but an online platform for the creation of software. And since tools and environment are ready-to-use, software engineers and developers can concentrate on building applications without having to worry about other components like operation systems, storage, and infrastructure.
+
+  2.3 - PaaS benefits
+  * Cost-reduction: PaaS is a simple, cost-effective way to quickly develop and deploy new apps.
+  * Scalability: PaaS service models can easily be adjusted to a developer’s needs.
+  * Migration: With PaaS, it’s easy to migrate to a hybrid cloud model.
+  * Less coding: Your developer teams have to do a lot less coding than before.
+  * Freedom: PaaS frees up time as developers can customize apps without having to maintain the software.
+
+  2.4 - PaaS disadvantages
+  * Data security: Using third-party vendor-controlled servers means that there are various security risks to look out for.
+  * Runtime issues: Some PaaS solutions are not optimized for the language or framework that your development teams are used to.
+  * Integrations: You might encounter some challenges with integrating new applications as not every component of your legacy IT system is built for the cloud.
+  * Limitations: Customized cloud operations tend to have automated workflows that might not be compatible with PaaS solutions, thus limiting operational capabilities for your end-user.
+  
+  
+  3 - SAAS (Software as a Service)<br><br>
+  SaaS stands for Software-as-a-Service. These entire cloud application services are the most common form of cloud computing. They are ready-to-use and often run directly through the client’s web browser, meaning there is no need for installations or downloads like it with on-prem solutions.
+
+  SaaS is hosted on remote servers and fully managed, updated, and maintained by a third-party vendor. This results in less responsibility but also less control for the end-user.
+
+  3.1 - When to use SaaS?
+  
+  SaaS is ideal for small companies or startups that don’t have the capacity to develop their own software applications. From e-commerce to short-term projects, SaaS is the quickest and easiest solution if you don’t need highly customized applications. SaaS is also a great option for applications that are not used very often, e.g. tax software.
+
+  3.2 - SaaS delivery
+  
+  SaaS is delivered as a fully functional service and can be accessed remotely via any web browser, allowing clients to work from anywhere. The users connect to the app through a dashboard or API and rely on the SaaS provider when it comes to bug fixes, middleware, support, and any potential technical issues.
+
+  3.3 - SaaS benefits
+  * Cost-reduction: SaaS usually resides in a shared or multi-tenant environment. When managed correctly, the license costs are lower compared to traditional models.
+  * Scalability: SaaS solutions are easy to scale up or down based on your specific needs.
+  * Integration: Many SaaS solutions have integrations with other SaaS offerings, so you don’t have to buy another server or software.
+  * Upgrades: With SaaS, you instantly benefit from new software releases and upgrades.
+  * Ease of use: Without installation or download, SaaS is easy to use and comes with baked-in best practices.
+
+  3.4 - SaaS disadvantages
+  * Data security: Since large volumes of sensitive data are being exchanged with off-premise servers, security and compliance might be compromised.
+  * Limited customization: SaaS only allows for minimal customization when it comes to features and capabilities.
+  * Interoperability: It might be difficult to integrate SaaS with existing apps and services due to dependencies.
+  * Less control: Users have very little control over functionalities, performance, downtime, or how their data is governed.
+  * Wasted resources: With the ease of use and scalability SaaS provides, an organization's SaaS stack includes many overlapping, underutilized, or unused apps. The value of SaaS apps in the organization can drop without automated SaaS Management or SaaS optimization processes in place.  
+  * Shadow IT: Employees often purchase or sign up for new SaaS without the knowledge of IT. Unmanaged SaaS apps could have potential security gaps.
+ 
 </b></details>
 
 
@@ -22,9 +103,67 @@ SAAS
 <summary> Cloud Computing Deployments:</summary> <br><b>
 
 
-  * Public
-  * Hybrid
-  * Private
+  1 - Public - The public cloud refers to the cloud computing model in which IT services are delivered via the internet. As the most popular model of cloud computing services, the public cloud offers vast choices in terms of solutions and computing resources to address the growing needs of organizations of all sizes and verticals.
+  
+  1.1 - When to use the public cloud
+  * Predictable computing needs, such as communication services for a specific number of users
+  * Apps and services necessary to perform IT and business operations
+  * Additional resource requirements to address varying peak demands
+  * Software development and test environments
+  
+  1.2 - Advantages of public cloud
+  * No CapEx. No investments required to deploy and maintain the IT infrastructure.
+  * Technical agility. High scalability and flexibility to meet unpredictable workload demands.
+  * Business focus. The reduced complexity and requirements on in-house IT expertise is minimized, as the cloud vendor is responsible for infrastructure management.
+  * Affordability. Flexible pricing options based on different SLA offerings
+  * Cost agility. The cost agility allows organizations to follow lean growth strategies and focus their investments on innovation projects
+
+  1.3 - Drawbacks of public cloud
+  * Lack of cost control. The total cost of ownership (TCO) can rise exponentially for large-scale usage, specifically for midsize to large enterprises.
+  * Lack of security. Public cloud is the least secure, by nature, so it isn’t best for sensitive mission-critical IT workloads.
+  * Minimal technical control. Low visibility and control into the infrastructure may not meet your compliance needs.
+  
+  
+  2 - Private - The private cloud refers to any cloud solution dedicated for use by a single organization. In the private cloud, you’re not sharing cloud computing resources with any other organization. The data center resources may be located on-premise or operated by a third-party vendor off-site. The computing resources are isolated and delivered via a secure private network, and not shared with other customers.
+  
+  2.1 - When to use the private cloud
+  * Highly regulated industries and government agencies
+  * Sensitive data
+  * Companies that require strong control and security over their IT workloads and the underlying infrastructure
+  * Large enterprises that require advanced data center technologies to operate efficiently and cost-effectively
+  * Organizations that can afford to invest in high performance and availability technologies
+
+  2.2 - Advantages of private cloud
+  * Exclusive environments. Dedicated and secure environments that cannot be accessed by other organizations.
+  * Custom security. Compliance to stringent regulations as organizations can run protocols, configurations, and measures to customize security based on unique workload requirements
+  * Scalability without tradeoffs. High scalability and efficiency to meet unpredictable demands without compromising on security and performance
+  * Efficient performance. The private cloud is reliable for high SLA performance and efficiency.
+  * Flexibility. The private cloud is flexible as you transform the infrastructure based on ever-changing business and IT needs of the organization.
+
+  2.3 - Drawbacks of private cloud
+  * Price. The private cloud is an expensive solution with a relatively high TCO compared to public cloud alternatives, especially for short-term use cases.
+  * Mobile difficulty. Mobile users may have limited access to the private cloud considering the high security measures in place.
+  * Scalability depends. The infrastructure may not offer high scalability to meet unpredictable demands if the cloud data center is limited to on-premise computing resources
+
+  3 - Hybrid - The hybrid cloud is any cloud infrastructure environment that combines both public and private cloud solutions. The resources are typically orchestrated as an integrated infrastructure environment. Apps and data workloads can share the resources between public and private cloud deployment based on organizational business and technical policies around aspects like Security, Performance, Scalability, Cost and Efficiency.
+
+  3.1 - When to use the hybrid cloud
+  * Organizations serving multiple verticals facing different IT security, regulatory, and performance requirements
+  * Optimizing cloud investments without compromising on the value that public or private cloud technologies can deliver
+  * Improving security on existing cloud solutions such as SaaS offerings that must be delivered via secure private networks
+  * Strategically approaching cloud investments to continuously switch and tradeoff between the best cloud service delivery model available in the market
+
+  3.2 - Advantages of hybrid cloud
+  * Policy-driven option. Flexible policy-driven deployment to distribute workloads across public and private infrastructure environments based on security, performance, and cost requirements.
+  * Scale with security. Scalability of public cloud environments is achieved without exposing sensitive IT workloads to the inherent security risks.
+  * Reliability. Distributing services across multiple data centers, some public, some private, results in maximum reliability.
+  * Cost control. Improved security posture as sensitive IT workloads run on dedicated resources in private clouds while regular workloads are spread across inexpensive public cloud infrastructure to tradeoff for cost investments
+
+  3.3 - Drawbacks of hybrid cloud
+  * Price. Toggling between public and private can be hard to track, resulting in wasteful spending.
+  * Management. Strong compatibility and integration is required between cloud infrastructure spanning different locations and categories. This is a limitation with public cloud deployments, for which organizations lack direct control over the infrastructure.
+  * Added complexity. Additional infrastructure complexity is introduced as organizations operate and manage an evolving mix of private and public cloud architecture.
+ 
   </b></details>
 
 #### AWS Global Infrastructure
