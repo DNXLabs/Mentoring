@@ -103,9 +103,67 @@ A summary of what will be given
 <summary> Cloud Computing Deployments:</summary> <br><b>
 
 
-  * Public
-  * Hybrid
-  * Private
+  1 - Public - The public cloud refers to the cloud computing model in which IT services are delivered via the internet. As the most popular model of cloud computing services, the public cloud offers vast choices in terms of solutions and computing resources to address the growing needs of organizations of all sizes and verticals.
+  
+  1.1 - When to use the public cloud
+  * Predictable computing needs, such as communication services for a specific number of users
+  * Apps and services necessary to perform IT and business operations
+  * Additional resource requirements to address varying peak demands
+  * Software development and test environments
+  
+  1.2 - Advantages of public cloud
+  * No CapEx. No investments required to deploy and maintain the IT infrastructure.
+  * Technical agility. High scalability and flexibility to meet unpredictable workload demands.
+  * Business focus. The reduced complexity and requirements on in-house IT expertise is minimized, as the cloud vendor is responsible for infrastructure management.
+  * Affordability. Flexible pricing options based on different SLA offerings
+  * Cost agility. The cost agility allows organizations to follow lean growth strategies and focus their investments on innovation projects
+
+  1.3 - Drawbacks of public cloud
+  * Lack of cost control. The total cost of ownership (TCO) can rise exponentially for large-scale usage, specifically for midsize to large enterprises.
+  * Lack of security. Public cloud is the least secure, by nature, so it isn’t best for sensitive mission-critical IT workloads.
+  * Minimal technical control. Low visibility and control into the infrastructure may not meet your compliance needs.
+  
+  
+  2 - Private - The private cloud refers to any cloud solution dedicated for use by a single organization. In the private cloud, you’re not sharing cloud computing resources with any other organization. The data center resources may be located on-premise or operated by a third-party vendor off-site. The computing resources are isolated and delivered via a secure private network, and not shared with other customers.
+  
+  2.1 - When to use the private cloud
+  * Highly regulated industries and government agencies
+  * Sensitive data
+  * Companies that require strong control and security over their IT workloads and the underlying infrastructure
+  * Large enterprises that require advanced data center technologies to operate efficiently and cost-effectively
+  * Organizations that can afford to invest in high performance and availability technologies
+
+  2.2 - Advantages of private cloud
+  * Exclusive environments. Dedicated and secure environments that cannot be accessed by other organizations.
+  * Custom security. Compliance to stringent regulations as organizations can run protocols, configurations, and measures to customize security based on unique workload requirements
+  * Scalability without tradeoffs. High scalability and efficiency to meet unpredictable demands without compromising on security and performance
+  * Efficient performance. The private cloud is reliable for high SLA performance and efficiency.
+  * Flexibility. The private cloud is flexible as you transform the infrastructure based on ever-changing business and IT needs of the organization.
+
+  2.3 - Drawbacks of private cloud
+  * Price. The private cloud is an expensive solution with a relatively high TCO compared to public cloud alternatives, especially for short-term use cases.
+  * Mobile difficulty. Mobile users may have limited access to the private cloud considering the high security measures in place.
+  * Scalability depends. The infrastructure may not offer high scalability to meet unpredictable demands if the cloud data center is limited to on-premise computing resources
+
+  3 - Hybrid - The hybrid cloud is any cloud infrastructure environment that combines both public and private cloud solutions. The resources are typically orchestrated as an integrated infrastructure environment. Apps and data workloads can share the resources between public and private cloud deployment based on organizational business and technical policies around aspects like Security, Performance, Scalability, Cost and Efficiency.
+
+  3.1 - When to use the hybrid cloud
+  * Organizations serving multiple verticals facing different IT security, regulatory, and performance requirements
+  * Optimizing cloud investments without compromising on the value that public or private cloud technologies can deliver
+  * Improving security on existing cloud solutions such as SaaS offerings that must be delivered via secure private networks
+  * Strategically approaching cloud investments to continuously switch and tradeoff between the best cloud service delivery model available in the market
+
+  3.2 - Advantages of hybrid cloud
+  * Policy-driven option. Flexible policy-driven deployment to distribute workloads across public and private infrastructure environments based on security, performance, and cost requirements.
+  * Scale with security. Scalability of public cloud environments is achieved without exposing sensitive IT workloads to the inherent security risks.
+  * Reliability. Distributing services across multiple data centers, some public, some private, results in maximum reliability.
+  * Cost control. Improved security posture as sensitive IT workloads run on dedicated resources in private clouds while regular workloads are spread across inexpensive public cloud infrastructure to tradeoff for cost investments
+
+  3.3 - Drawbacks of hybrid cloud
+  * Price. Toggling between public and private can be hard to track, resulting in wasteful spending.
+  * Management. Strong compatibility and integration is required between cloud infrastructure spanning different locations and categories. This is a limitation with public cloud deployments, for which organizations lack direct control over the infrastructure.
+  * Added complexity. Additional infrastructure complexity is introduced as organizations operate and manage an evolving mix of private and public cloud architecture.
+ 
   </b></details>
 
 #### AWS Global Infrastructure
